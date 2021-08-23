@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f9846e6bad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/dist/css/destination.css">
+    <title>Destinations</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Travelia</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="destination.html">Destinations</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="select">
+            <h2>Choose your destination:</h2>
+
+            <div class="buttons">
+              <button class="btn btn-small active" id="btn-1" data-filter="all">ALL PLACES</button>
+              <button class="btn btn-small" id="btn-2" data-filter="europe">EUROPE</button>
+              <button class="btn btn-small" id="btn-3" data-filter="asia">ASIA</button>
+              <button class="btn btn-small" id="btn-4" data-filter="africa">AFRICA</button>
+              <button class="btn btn-small" id="btn-5" data-filter="n-america">NORTH AMERICA</button>
+              <button class="btn btn-small" id="btn-6" data-filter="s-america">SOUTH AMERICA</button>
+              <button class="btn btn-small" id="btn-7" data-filter="australia">AUSTRALIA AND OCEANIA</button>
+            </div>
+        </section>
+
+        <section id="images">
+          <div class="row continent g-2">
+            <div class="img col-12 col-sm-6 col-md-4 europe">
+              <div class="card">
+                <img src="europe/amsterdam.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">
+                      Amsterdam, Netherlands
+                  </p>
+                  <p class="price">From 200&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+              </div>
+              
+           </div>
+            <div class="img col-12 col-sm-6 col-md-4 europe">
+              <div class="card">
+              <img src="/europe/barcelona.jpg" alt="" loading="lazy">
+              <div class="card-body">
+                <p class="card-text">Barcelona, Spain</p>
+                <p class="price">From 350&euro;</p>
+                <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+              </div>
+              </div>
+             
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 europe">
+              <div class="card">
+                <img src="/europe/berlin.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Berlin, Germany</p>
+                  <p class="price">From 300&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+               
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 europe">
+              <div class="card">
+                <img src="/europe/bled.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Bled, Slovenia</p>
+                  <p class="price">From 100&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 europe">
+              <div class="card">
+                <img src="/europe/dubrovnik.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Dubrovnik, Croatia</p>
+                  <p class="price">From 400&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 europe">
+              <div class="card">
+                <img src="europe/hallstatt.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Hallstatt, Austria</p>
+                  <p class="price">From 80&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>  
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 europe">
+              <div class="card">
+                <img src="europe/iceland.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Iceland Tour</p>
+                  <p class="price">From 550&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 europe">
+              <div class="card">
+                <img src="europe/london.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">London, UK</p>
+                  <p class="price">From 350&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 europe">
+              <div class="card">
+                <img src="europe/paris.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Paris, France</p>
+                  <p class="price">From 360&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 europe">
+              <div class="card">
+                <img src="europe/sardinia2.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Sardinia, Italy</p>
+                  <p class="price">From 450&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 europe">
+              <div class="card">
+                <img src="europe/svalbard.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Svalbard, Norway</p>
+                  <p class="price">From 750&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 europe">
+              <div class="card">
+                <img src="europe/zakynthos.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Zakynthos, Greece</p>
+                  <p class="price">From 500&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+          
+
+          
+            <div class="img col-12 col-sm-6 col-md-4 asia">
+              <div class="card">
+                <img src="asia/bali2.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Bali, Indonesia</p>
+                  <p class="price">From 1000&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 asia">
+              <div class="card">
+                <img src="asia/india.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">North India</p>
+                  <p class="price">From 1050&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 asia">
+              <div class="card">
+                <img src="asia/japan.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Tokyo, Japan</p>
+                  <p class="price">From 1100&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 asia">
+              <div class="card">
+                <img src="asia/maldives.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Maldives</p>
+                  <p class="price">From 1200&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 asia">
+              <div class="card">
+                <img src="asia/thailand.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Thailand Tour</p>
+                  <p class="price">From 850&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 asia">
+              <div class="card">
+                <img src="asia/vietnam.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Hanoi, Vietnam</p>
+                  <p class="price">From 760&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+          
+
+          
+            <div class="img col-12 col-sm-6 col-md-4 africa">
+              <div class="card">
+                <img src="africa/egypt.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Egypt Tour</p>
+                  <p class="price">From 650&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 africa">
+              <div class="card">
+                <img src="africa/south africa.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Cape Town, South Africa</p>
+                  <p class="price">From 1200&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 africa">
+              <div class="card">
+                <img src="africa/zanzibar.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Zanzibar, Tanzania</p>
+                  <p class="price">From 15000&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+          
+            <div class="img col-12 col-sm-6 col-md-4 n-america">
+              <div class="card">
+                <img src="north-a/cancun.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Cancun, Mexico</p>
+                  <p class="price">From 1350&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 n-america">
+              <div class="card">
+                <img src="north-a/new york.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">New York, USA</p>
+                  <p class="price">From 1100&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 n-america">
+              <div class="card">
+                <img src="north-a/san francisco.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">San Francisco, USA</p>
+                  <p class="price">From 1400&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+          
+            <div class="img col-12 col-sm-6 col-md-4 s-america">
+              <div class="card">
+                <img src="south-a/machu picchu.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Machu Picchu, Peru</p>
+                  <p class="price">From 1450&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 s-america">
+              <div class="card">
+                <img src="south-a/patagonia.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Patagonia, Argentina</p>
+                  <p class="price">From 2000&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 s-america">
+              <div class="card">
+                <img src="south-a/rio de janeiro.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Rio De Janeiro, Brasil</p>
+                  <p class="price">From 850&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+          
+
+          
+            <div class="img col-12 col-sm-6 col-md-4 australia">
+              <div class="card">
+                <img src="australia/new zealand.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">New Zealand Tour</p>
+                  <p class="price">From 2450&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+                </div>
+            </div>
+            <div class="img col-12 col-sm-6 col-md-4 australia">
+              <div class="card">
+                <img src="australia/sydney.jpg" alt="" loading="lazy">
+                <div class="card-body">
+                  <p class="card-text">Sydney, Australia</p>
+                  <p class="price">From 2100&euro;</p>
+                  <a href="#" type="button" class="btn btn-danger">SEE MORE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+    <footer>
+      <section id="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col foot1">
+                <div class="social">
+                  <h5 id="social-h">Find us on social media</h5>
+                  <div class="icons">
+                  <div class="icon">
+                    <i class="fab fa-facebook-square"></i>
+                  </div>
+                  <div class="icon">
+                    <i class="fab fa-instagram-square"></i>
+                  </div>
+                  <div class="icon">
+                    <i class="fab fa-twitter-square"></i>
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col foot2">
+                <div class="important-links">
+                  <h5 id="links-h">Important Links</h5>
+                  <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Careers</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section id="scroll">
+        <button id="scrollBtn">
+          <i class="far fa-arrow-alt-circle-up"></i>
+        </button>
+      </section>
+  </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="/js/destinations.js"></script>
+</body>
+</html>

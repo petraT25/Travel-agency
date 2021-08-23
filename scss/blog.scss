@@ -1,0 +1,11 @@
+@import "./resets";
+@import "./variables";
+@import "./navbarFooter";
+
+.gallery-carousel {
+    display: flex;
+}
+
+img {
+    width: 300px;
+}

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f9846e6bad.js" crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/dist/css/main.css">
+    <title>Travelia</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Travelia</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="destination.html">Destinations</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="carousel">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/carousel-imgs/croatia.jpg" class="d-block w-100" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/carousel-imgs/iceland.jpg" class="d-block w-100" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/carousel-imgs/greece2.jpg" class="d-block w-100" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/carousel-imgs/france.jpg" class="d-block w-100" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/carousel-imgs/scotland.jpg" class="d-block w-100" alt="">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="overlay">
+                <div class="text">
+                  <h1 id="welcome-h">Welcome to Travelia</h1>
+                  <p id="welcome-p">We have something for everyone!</p>
+                  <a href="destination.html" type="button" id="explore" class="btn btn-outline-warning">Explore</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="most-popular">
+           <h2>Most Popular</h2>
+           <div class="container">
+             <div class="row">
+               <div class="col-12 col-sm-6 col-md-4 p-0">
+                  <div class="card" data-aos="flip-down"
+                  data-aos-duration="1200">
+                    <img src="popular-places/amsterdam.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">
+                          Amsterdam, Netherlands
+                      </p>
+                      <p class="price">From 200&euro;</p>
+                    </div>
+                  </div>
+               </div>
+
+               <div class="col-12 col-sm-6 col-md-4 p-0">
+                 <div class="card" data-aos="flip-down"
+                 data-aos-duration="1200">
+                    <img src="popular-places/zakynthos.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">
+                          Zakynthos, Greece
+                      </p>
+                      <p class="price">From 350&euro;</p>
+                    </div>
+                  </div>
+               </div>
+
+               <div class="col-12 col-sm-6 col-md-4 p-0">
+                  <div class="card" data-aos="flip-down"
+                  data-aos-duration="1200">
+                    <img src="popular-places/london.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">
+                          London, UK
+                      </p>
+                      <p class="price">From 300&euro;</p>
+                    </div>
+                  </div>
+               </div>
+            
+             
+              <div class="col-12 col-sm-6 col-md-4 p-0">
+                <div class="card" data-aos="flip-down"
+                data-aos-duration="1200">
+                    <img src="popular-places/paris.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">
+                          Paris, France
+                      </p>
+                      <p class="price">From 300&euro;</p>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 p-0">
+                <div class="card" data-aos="flip-down"
+                data-aos-duration="1200">
+                    <img src="popular-places/hallstatt.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">
+                          Hallstatt, Austria
+                      </p>
+                      <p class="price">From 150&euro;</p>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col-12 col-sm-6 col-md-4 p-0">
+                  <div class="card" data-aos="flip-down"
+                  data-aos-duration="1200">
+                    <img src="popular-places/iceland.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Reykjavik, Iceland</p>
+                      <p class="price">From 400&euro;</p>
+                    </div>
+                  </div>
+              </div>
+             </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+
+           <div id="carouselTestimonials" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="testimonials/woman1.jpg" alt="">
+                  <p class="message">
+                    <i class="fas fa-quote-right"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis quos enim?</p>
+                  <p class="name">- Cathy</p>
+                </div>
+
+                <div class="carousel-item">
+                  <img src="testimonials/man1.jpg" alt="">
+                  <p class="message">
+                    <i class="fas fa-quote-right"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis quos enim?</p>
+                  <p class="name">- Mike</p>
+                </div>
+
+                <div class="carousel-item">
+                  <img src="testimonials/woman2.jpg" alt="">
+                  <p class="message">
+                    <i class="fas fa-quote-right"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis quos enim?</p>
+                  <p class="name">- Anna</p>
+                </div>
+
+                <div class="carousel-item">
+                  <img src="testimonials/man2.jpg" alt="">
+                  <p class="message">
+                    <i class="fas fa-quote-right"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis quos enim?</p>
+                  <p class="name">- Tom</p>
+                </div>
+
+                <div class="carousel-item">
+                  <img src="testimonials/woman3.jpg" alt="">
+                    <p class="message">
+                    <i class="fas fa-quote-right"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis quos enim?</p>
+                    <p class="name">- Mia</p>
+               </div>
+
+              <div class="carousel-item">
+                <img src="testimonials/man3.jpg" alt="">
+                <p class="message">
+                  <i class="fas fa-quote-right"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis quos enim?</p>
+                <p class="name">- James</p>
+              </div>
+
+            <button id="test-control-prev" class="carousel-control-prev test-prev" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon control-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button id="test-control-next" class="carousel-control-next test-next" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="next">
+              <span class="carousel-control-next-icon control-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+         </div>
+        </section>
+
+
+        <section id="newsletter">
+          <h2>Subscribe to Our Newsletter</h2>
+          <h3>Receive best offers to your email!</h3>
+
+          <input type="email" placeholder="Enter your email..." id="email" required>
+
+          <a href="#" type="button" class="btn btn-outline-warning" id="sub-btn">Subscribe</a>
+
+          <div class="overlay-newsletter"></div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col foot1">
+                  <div class="social">
+                    <h5 id="social-h">Find us on social media</h5>
+                    <div class="icons">
+                    <div class="icon">
+                      <i class="fab fa-facebook-square"></i>
+                    </div>
+                    <div class="icon">
+                      <i class="fab fa-instagram-square"></i>
+                    </div>
+                    <div class="icon">
+                      <i class="fab fa-twitter-square"></i>
+                    </div>
+                    </div>
+                  </div> 
+                </div>
+
+                <div class="col foot2">
+                  <div class="important-links">
+                    <h5 id="links-h">Important Links</h5>
+                    <ul>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="blog.html">Blog</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="#">Careers</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section id="scroll">
+          <button id="scrollBtn">
+            <i class="far fa-arrow-alt-circle-up"></i>
+          </button>
+        </section>
+    </footer>
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
