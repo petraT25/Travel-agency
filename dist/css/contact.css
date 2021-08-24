@@ -283,7 +283,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url("/generic-images/form3.jpg");
+  background-image: url("../../generic-images/form3.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
