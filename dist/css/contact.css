@@ -35,6 +35,7 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin-right: 2rem !important;
+  z-index: 55;
 }
 
 .navbar .navbar-toggler {
@@ -283,11 +284,10 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url("../../generic-images/form3.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-color: rgba(198, 31, 167, 0.7);
+  background-color: rgba(98, 30, 86, 0.667);
   background-blend-mode: saturation;
   border-radius: 1rem;
   -webkit-box-shadow: 5px 6px 7px rgba(46, 44, 45, 0.7);

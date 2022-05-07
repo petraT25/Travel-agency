@@ -35,6 +35,7 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin-right: 2rem !important;
+  z-index: 55;
 }
 
 .navbar .navbar-toggler {
